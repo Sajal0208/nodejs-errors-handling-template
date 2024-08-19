@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-errors-handling-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc -b",
+    "start": "node src",
+    "local": "ts-node src",
+    "local:watch": "nodemon src -e ts,json --exec 'npm run local'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:Sajal0208/nodejs-errors-handling-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "nodemon": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
+  }
+}

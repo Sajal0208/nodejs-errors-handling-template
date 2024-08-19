@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Optional: Uncomment if you're using TypeScript
+# *.tsbuildinfo
+
+# Optional: Uncomment if you're using Jest for testing
+# jest.config.js
+
+# Optional: Uncomment if you're using ESLint
+# .eslintcache
+
+# Optional: Uncomment if you're using Prettier
+# .prettierignore
